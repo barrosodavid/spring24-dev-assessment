@@ -1,3 +1,51 @@
+# Spring-24 Bits of Good Dev Assessment
+
+_David Barroso_
+
+<img src="/.github/cover.png" alt="Project screenshot">
+
+# Setup
+
+Install all dependencies by executing from the root of this project:
+
+`yarn install`
+
+Run both the backend and the frontend from root:
+
+`yarn start`
+
+Open the app in the browser in `localhost:3000` (by default)
+
+## Dependencies used
+
+- Component library: [NextUI](https://nextui.org/)
+- Styles: [Tailwind CSS](https://tailwindcss.com/)
+
+## Features implemented as of now
+### Level 1: Easy
+- [X] Component for the table representing the data for each volunteer
+- [X] Mobile design
+
+### Level 2: Medium
+- [X] Add new volunteers to the table on the frontend
+- [X] Update volunteer information on the frontend
+- [X] Delete volunteer information on the frontend
+- [ ] Modify Express API to support POST, PUT, and DELETE
+- [ ] Integrate additional POST, PUT and DELETE endpoints
+
+### Level 3: Hard
+- [X] See at most 10 volunteers at a time on the frontend with client-side pagination.
+- [ ] Click on a user to retrieve information about notes they have on this volunteer in a separate page.
+- [ ] Retrieve statistics on how often each volunteer's row is clicked and displayed on the page
+
+### Level 4: Expert
+- [ ] Sorting in alphabetical order and filtering on `hero_project` column of the table
+- [ ] Authorization
+- [ ] Webworkers to gather user interaction stats
+- [ ] Unit-test and document the application
+
+# Assesment description
+
 # Introduction 
 Hello, thank you for showing your interest in Bits of Good! This semester, we are focusing our recruitment on the practical skills of developers through this assessment! We hope you enjoy the task and if you have any questions or if any part is ambiguous, please send us an email at gt.engineering@hack4impact.org or file an issue on GitHub.
 
